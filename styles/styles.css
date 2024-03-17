@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,*::after, *::after{
+    box-sizing: inherit;
+}
+
+.secction-screen{
+    position: relative;
+    background-color: blue;
+    height: 100vh;
+    background-size:cover;
+    background: 
+    linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(18,18,88,0.3) 39%, rgba(0,212,255,0.05) 100%),
+    url('https://images.unsplash.com/photo-1616248304589-6a3d8d60ad7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.content{
+  width: 80%;
+  margin: auto;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.content-header{
+  padding: 10px 0px;
+  position: absolute;
+  width: 100%;
+  align-content: center;
+
+}
+
+.title-logo{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-content> ol {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.nav-content> ol > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-custom{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: white;
+    font-style: normal;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-custom:hover{
+    background-color: #3700ff;
+}
+
+.btn-contacto{
+    background-color: #4F22F2;
+}
+
+
+
+.content-title{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%; 
+}
+
+.title-uno{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase ;
+    color: white;
+    font-style: normal;
+    font-size: clamp(2rem, 3vw, 5rem);
+}
+
+.title-dos{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: clamp(3rem, 10vw, 8rem);
+    color: #4F22F2;
+    font-style: normal;
+}
+
+.title-tres{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase ;
+    color: white;
+    font-style: normal;
+    font-size:  clamp(1rem, 1.5vw, 5rem);
+}
+
+.title-cuatro{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: white;
+    width: 50%;
+    font-size: clamp(0.8rem, 0.2vw, 5rem);
+    font-style: normal;
+}
+
+.btn-autobiografia{
+    margin-top: 10px;
+    padding: 10px 50px;
+    background-color: #4F22F2;
+}
+
+/* contenido autobiografia */
+
+.content-autobio{
+    margin-top: 10px;
+}
+
+.title-auto{
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase ;
+    font-size: clamp(0.8rem, 2vw, 5rem);
+    color: rgb(52, 49, 49);
+    font-style: normal;
+}
+
+.content-autobio > article{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: black; 
+    font-size: clamp(0.8rem, 1vw, 5rem);
+    width: 60%;
+    margin: 10px auto;
+}
