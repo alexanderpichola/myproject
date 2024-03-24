@@ -142,6 +142,7 @@
     font-size: clamp(0.8rem, 2vw, 5rem);
     color: rgb(52, 49, 49);
     font-style: normal;
+    margin-bottom: 25px;
 }
 
 .content-autobio > article{
@@ -150,5 +151,41 @@
     color: black; 
     font-size: clamp(0.8rem, 1vw, 5rem);
     width: 60%;
+    text-align: justify;
     margin: 10px auto;
 }
+
+
+.text-div{
+    width: 80%;
+    text-align: justify;
+}
+
+.img-article{
+    display:flex;
+    justify-content: space-between;
+}
+
+.content-img {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    
+  }
+
+  .img-size {
+    max-width: 100%; /* La imagen no excederá el tamaño del div */
+    max-height: 100%; /* La imagen no excederá el tamaño del div */
+    object-fit: cover; /* La imagen se ajustará para cubrir el div */
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .img-article {
+        display:block;
+    }
+  }
+
